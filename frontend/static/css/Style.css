@@ -1,0 +1,102 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+}
+.Fill{
+    width: 100%;
+    height: 100%;
+}
+.FileUploadMain{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem;
+    padding: .85em 1em;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 1.05rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    color: #d6d6d6;
+    background-color: #007e94;
+    border-bottom: 2px solid #1b5e20;
+    transition: background-color .3s;
+    width: 80%;
+}
+
+.Submit{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem;
+    padding: .85em 1em;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 1.05rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #d6d6d6;
+    background-color: #007e94;
+    border-bottom: 2px solid #1b5e20;
+    transition: background-color .3s;
+    width: 60%;
+}
+
+.CharacterSet{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    padding: .85em 1em;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 1.05rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #d6d6d6;
+    background-color: #007e94;
+    border-bottom: 2px solid #1b5e20;
+    transition: background-color .3s;
+    
+}
+
+.FileUpload{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    font-family: inherit;
+    margin: 0 0 1rem;
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
