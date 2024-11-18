@@ -5,9 +5,9 @@
 
 ---
 
-The **Image-LaTeX Converter** allows users to upload an image of a mathematical equation and returns the corresponding LaTeX code. Additional features include:  
+The **Image-LaTeX Converter** allows users to upload an image of an equation and returns the corresponding LaTeX code. Additional features include:  
 - Commenting on previously seen equations.  
-- An API to extract images of uploaded equations and sub-images of characters, along with their labels.
+- An API to extract images of uploaded equations and sub-images of characters, along with their labels as confirmed by a user.
 
 ---
 
@@ -26,18 +26,18 @@ This project was my first attempt at combining Django, React, and machine learni
 
 1. **Rudimentary Image Recognition**:  
    - A custom CNN was developed from scratch without the use of frameworks like TensorFlow or PyTorch.  
-   - Due to limited computational power, the CNN could only identify one character at a time.  
-   - Multiple networks were required to cover different character sets, necessitating manual user categorization.  
+   - Due to limited computational power, and basic implementation, the CNN could only identify one character at a time opposed to a object detection algorithm that could lable all characters in the image.  
+   - Multiple networks were required to cover different character sets, requiring manual user categorization.  
 
 2. **Development Context**:  
    - As my first large-scale project, the architecture and code styling reflect my learning curve.  
-   - The image recognition component, though functional, highlights the need for a more robust neural network.
+   - The image recognition component, though functional, is not suitable for a real world product, in any context other than my NEA, using more powerful libaries like tensorflow or pytorch would be an obvious choice, however this would have impacted my grade.
 
 ---
 
 ## 🛠️ Future Improvements
-While the current implementation has limitations, the core concept is scalable with the following changes:  
-- Implementing larger, more advanced networks (e.g., TensorFlow or PyTorch).  
+While the current implementation has limitations, the core concept is viable with the following changes:  
+- Implementing larger, more advanced networks (utilizing TensorFlow or PyTorch).  
 - Automating the character categorization process.  
 
 Despite these limitations, the project has been an invaluable learning experience. It taught me:  
@@ -49,5 +49,5 @@ Despite these limitations, the project has been an invaluable learning experienc
 
 ## 🚀 Outcome
 The **Image-LaTeX Converter** achieved its primary goal and served as a stepping stone for my learning. Notably:  
-- It was a significant milestone in my journey as a developer.  
-- The project earned an **A** grade for my AQA NEA.
+- Providing an excellent into to deep learning and web developement.  
+- Earning an **A** grade for my AQA NEA.
